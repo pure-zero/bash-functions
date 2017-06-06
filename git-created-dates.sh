@@ -1,4 +1,6 @@
 #!/bin/bash
+#simple funtion for showing the created dates in a git repository in the current directory
+#TODO add ability to specify a directory`
 function git-created-dates {
     for file in `git ls-files`
         do
